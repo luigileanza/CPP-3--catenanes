@@ -1,0 +1,15 @@
+#include "force_field.itp"
+#include "MOLA.itp"
+#include "MOLB.itp"
+#include "MOLC.itp"
+#include "chloroform.itp"
+
+[ system ]
+Youzhy catenane in water
+
+[ molecules ]
+; Compound        nmols
+ RIA              1
+ RIB		  1
+ RIC		  1
+CHL              3416
